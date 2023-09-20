@@ -141,7 +141,6 @@ function registrar() {
 
             document.body.innerHTML = `<header><h1>¡Error!</h1></header>
                                         <h2>¡El usuario: ${nombreUsuario} ya fue registrado!</h2> <a href="index.html">Volver</a>`;
-            console.log("el usuario ya ha sido registrado");
 
         }
 
@@ -164,22 +163,24 @@ function loguearse(){
 
     if(contador == 1){
             document.body.innerHTML = `<header><h1>Usted esta dentro del simulador de prestamo</h2></header>
-            <main>
-            <h2>¡Bievenido ${nombreUsuario} !</h2> 
-            <form action="" id="formulario2">
-                </li>
-                <li>
-                    <label for="">Dinero solicitado</label>
-                    <input type="text" id="dineroSolicitado">
-                </li>
-                <li>
-                    <label for="">Cantidad de cuotas</label>
-                    <input type="text" id="cuotasSolicitadas">
-                </li>
-                <li>
-                    <button id = "btn_solicitudDinero" >Solicitar</button>
-                </li>
-            </form>
+            <main>            
+            <section>
+                <h2>¡Bievenido ${nombreUsuario} !</h2>
+                <form action="" id="formulario2">
+                    </li>
+                    <li>
+                        <label for="">Dinero solicitado</label>
+                        <input type="text" id="dineroSolicitado">
+                    </li>
+                    <li>
+                        <label for="">Cantidad de cuotas</label>
+                        <input type="text" id="cuotasSolicitadas">
+                    </li>
+                    <li>
+                        <button id = "btn_solicitudDinero" >Solicitar</button>
+                    </li>
+                </form>
+            </section>
             </main>`;
 
             let formularioSolicitud = document.getElementById("formulario2");
@@ -207,15 +208,15 @@ function loguearse(){
 
                 document.body.innerHTML = `<header><h1>Solicitud de prestamo realizada</h1></header>
                                             <main>
-                                                <h2>Su prestamo solicitado fue:</h2>
                                                 <section>
-                                                    <li>Dinero solicitado: ${prestamoNuevo}</li>
-                                                    <li>Cantidad de cuotas seleccionadas: ${clienteEsporadico.getCuotas()}</li>
-                                                    <li>El dinero que deverá devolver es: ${valorFinalDevolucion}</li>
-                                                    <li>El valor de la cuota es: ${valorFinalCuota}</li>
-                                                    <li><a href="index.html">Volver al inicio</a>
+                                                    <h2>Su prestamo solicitado fue:</h2>
+                                                        <li>Dinero solicitado: ${prestamoNuevo}</li>
+                                                        <li>Cantidad de cuotas seleccionadas: ${clienteEsporadico.getCuotas()}</li>
+                                                        <li>El dinero que deverá devolver es: ${valorFinalDevolucion}</li>
+                                                        <li>El valor de la cuota es: ${valorFinalCuota}</li>
+                                                        <li><a href="index.html">Volver al inicio</a>
+                                                    <div><h3>La simulación de prestamo ha finalizado</h3>
                                                 </section>
-                                                <div><h3>La simulación de prestamo ha finalizado</h3>
                                             </main>`;
 
 

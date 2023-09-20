@@ -1,23 +1,34 @@
+body{
+    height: auto;
+    padding: 0 ;
+    margin: 0;
+}
+
+
 header{
     /*display: grid;*/
     background-image: url(../img/fondo-header.jpg);
     text-align: center;
+    justify-content: center;
     color: white;
-    height: 100px;
+    height: auto;
     padding: 0;
     margin: 0;
 
 }
 
 h1{
-
+    text-align: center;
+    justify-content:end;
     font-size: 75px;
+    padding: 0;
+    margin: 0;
 }
 
 main{
 
     background-image: url(../img/fondo-main2.jpg);
-    /*background-color: lightblue;*/
+    background-color: lightblue;
     text-align: center;
     height: 860px;
     padding: 0;
@@ -26,14 +37,11 @@ main{
 
 }
 
-form{
-
-    margin: 25px;
-
+section{
+    padding-top: 50px;
 }
 
-#cuadroPrincipal{
 
-    padding-top: 50px;
-
+li{
+    list-style: none;
 }
