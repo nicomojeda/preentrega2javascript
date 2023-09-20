@@ -1,0 +1,39 @@
+header{
+    /*display: grid;*/
+    background-image: url(../img/fondo-header.jpg);
+    text-align: center;
+    color: white;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1{
+
+    font-size: 75px;
+}
+
+main{
+
+    background-image: url(../img/fondo-main2.jpg);
+    /*background-color: lightblue;*/
+    text-align: center;
+    height: 860px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+form{
+
+    margin: 25px;
+
+}
+
+#cuadroPrincipal{
+
+    padding-top: 50px;
+
+}
