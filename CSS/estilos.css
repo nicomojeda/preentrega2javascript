@@ -45,3 +45,48 @@ section{
 li{
     list-style: none;
 }
+
+
+.dolar{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 4px ;
+    display:flex;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: lightslategray;
+    justify-content: center;
+}
+
+#cuotasSolicitadas{
+    width: 200px;
+    margin-left: 70px;
+}
+
+.ds{
+    margin-left: 70px;
+}
+
+
+.seccionPrincipal{
+    border: 2px;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 4px ;
+    display: block;
+}
+
